@@ -1,0 +1,89 @@
+.carsList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+h1 {
+  text-align: center;
+  padding: 20px 0 50px 0;
+}
+
+.divList {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.cadrBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  margin-bottom: 20px;
+  width: 20%;
+  min-height: 500px;
+  max-height: 500px;
+  line-height: 1em;
+  text-align: center;
+}
+
+.descrpt {
+  font-size: small;
+  line-height: 1em;
+}
+
+.card_movie{
+  display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin: 10%;
+  margin-top: 20px;
+} 
+
+.div_iframe{
+  margin-right: 40px;
+  margin-bottom: -5px;
+}
+
+.div_info{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+.div_desc{
+  max-width: 100%;
+  text-align:justify;
+  text-align-last: center;
+  margin-right: 40px;
+}
+
+.btn_watch{
+  color: #fff;
+  background-color: red;
+  border: 1px;
+  border-radius: 15px;
+  padding: 8px 16px;
+}
+
+.card_movie{
+background: linear-gradient(to top,rgba(0,0,0,.75) 0,rgba(0,0,0,0) 100%);
+}
+.btn_back
+{padding: 10px 9px;
+  margin: 20px 20px;
+  border: 1px solid red;
+  background: transparent;
+  border-radius: 54px;
+  font-weight: bold;}

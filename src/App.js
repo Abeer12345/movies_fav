@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import { Route, Routes } from 'react-router';
+import Home from './home';
+import Details from './details';
+import NavBar from './NavBar';
 
-function App() {
+export const App = () => {
+  const [movies, setMovies] = useState([])
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    <div>
+      {/* <NavBar/> */}
+      <Routes>
+        <Route path='/home' element={<Home setMoviesH={setMovies} />} ></Route>
+        <Route path='/movie_details/:id' element={<Details movies={movies} />} ></Route>
 
-export default App;
+      </Routes>
+
+    </div>
+  )
+}
+export default App
