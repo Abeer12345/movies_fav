@@ -8,7 +8,7 @@
 //             <div>My favorite movies</div>
 //             <div>
 //             <Link to={'/home'}>View more</Link>
-//  <Navigate to='/home'> Home </Navigate>
+//  <Navigate to='/home'/>
 //             </div>
 //             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
 //                 <Container>

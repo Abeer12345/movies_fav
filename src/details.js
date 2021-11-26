@@ -12,7 +12,7 @@ const Details = ({ movies }) => {
     const movie = movies.find(el => parms.id === el.id)
     console.log("movie", movie)
     return (
-        <      div>
+        <div className="div_g">
             <button className='btn_back'  onClick={() => navigate(-1)}> Go Back</button>
             <div className="card_movie">
                 <div className="div_iframe">

@@ -40,36 +40,36 @@ h1 {
   line-height: 1em;
 }
 
-.card_movie{
+.card_movie {
   display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	margin: 10%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10%;
   margin-top: 20px;
-} 
+}
 
-.div_iframe{
+.div_iframe {
   margin-right: 40px;
   margin-bottom: -5px;
 }
 
-.div_info{
-	display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: center;
-	align-content: center;
+.div_info {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
-.div_desc{
+.div_desc {
   max-width: 100%;
-  text-align:justify;
+  text-align: justify;
   text-align-last: center;
   margin-right: 40px;
 }
 
-.btn_watch{
+.btn_watch {
   color: #fff;
   background-color: red;
   border: 1px;
@@ -77,13 +77,23 @@ h1 {
   padding: 8px 16px;
 }
 
-.card_movie{
+/* .card_movie{
 background: linear-gradient(to top,rgba(0,0,0,.75) 0,rgba(0,0,0,0) 100%);
+} */
+.div_g {
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.75) 0,
+    rgba(0, 0, 0, 0) 100%
+  );
+  height: 100vh;
 }
-.btn_back
-{padding: 10px 9px;
+
+.btn_back {
+  padding: 10px 9px;
   margin: 20px 20px;
   border: 1px solid red;
   background: transparent;
   border-radius: 54px;
-  font-weight: bold;}
+  font-weight: bold;
+}

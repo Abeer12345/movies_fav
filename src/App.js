@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Route, Routes } from 'react-router';
+import { Route, Routes, Navigate } from 'react-router';
 import Home from './home';
 import Details from './details';
 import NavBar from './NavBar';
@@ -11,6 +11,7 @@ export const App = () => {
   return (
     <div>
       {/* <NavBar/> */}
+      <Navigate to='/home' />
       <Routes>
         <Route path='/home' element={<Home setMoviesH={setMovies} />} ></Route>
         <Route path='/movie_details/:id' element={<Details movies={movies} />} ></Route>
